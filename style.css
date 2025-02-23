@@ -1,0 +1,38 @@
+#container{
+    height: 300px;
+    width: auto;
+    margin: 50px;
+    padding: 25px;
+}
+.box{
+    border:2px solid;
+    border-color: rgb(33, 178, 245);
+    padding: 25px;
+    box-sizing: border-box;
+    height: 300px;
+    width: 50%;
+    float: left;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#box1{
+    background-color: rgb(255, 255, 255);
+    color:rgb(33, 178, 245);
+}
+#box2{
+    background-color: rgb(33, 178, 245);
+    color: white;
+    position: relative;
+}
+#temp{
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+}
+#finalDegree{
+    position: absolute;
+    top: 80px;
+    left: 180px;
+    font-size: 25px;
+}

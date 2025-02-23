@@ -17,6 +17,14 @@
 #box1{
     background-color: rgb(255, 255, 255);
     color:rgb(33, 178, 245);
+    position: relative;
+}
+#firstDegreeLabel{
+    padding-bottom: 5px;
+    display:block;
+}
+#tempBox{
+    border-color:rgb(33, 178, 245);
 }
 #box2{
     background-color: rgb(33, 178, 245);
@@ -35,4 +43,18 @@
     top: 80px;
     left: 180px;
     font-size: 25px;
+}
+#convertBtn{
+    border-radius: 10px;
+    font-size: 15px;
+    position: absolute;
+    left: 30%;
+    background-color: rgb(33, 178, 245);
+    cursor:pointer;
+    border-color: rgb(33, 178, 245);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:white;
+}
+#convertBtn:hover{
+    background-color: rgb(9, 106, 151);
 }

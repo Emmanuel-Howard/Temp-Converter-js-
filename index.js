@@ -11,12 +11,16 @@ let finalDegree = document.getElementById("finalDegree");
 // On click function
 convertBtn.onclick = function convert(){
     if(fahrenheitRadio.checked){
-        console.log("F checked")
+        temp = (tempBox.value * 9/5) + 32;
+        temp = temp.toFixed(2); 
+        console.log(temp);
     }
     else if(celsiusRadio.checked){
-        console.log("C checked")
+        temp = (tempBox.value - 32) * 5/9;
+        temp = temp.toFixed(2); 
+        console.log(temp);
     }
     else{
-        console.log("Nothing is checked")
+        console.log("Nothing is checked");
     }
 }

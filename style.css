@@ -1,8 +1,13 @@
+body{
+    background-color:rgb(5, 99, 122);
+}
 #container{
     height: 300px;
-    width: auto;
-    margin: 50px;
+    max-width: 600px;
+    overflow: hidden;
+    margin: 50px auto;
     padding: 15px;
+    
 }
 .box{
     border:2px solid;

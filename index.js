@@ -11,14 +11,20 @@ let finalDegree = document.getElementById("finalDegree");
 // On click function
 convertBtn.onclick = function convert(){
     if(fahrenheitRadio.checked){
-        temp = (tempBox.value * 9/5) + 32;
-        temp = temp.toFixed(2); 
-        console.log(temp);
+        temperature = (tempBox.value * 9/5) + 32;
+        temperature = temperature.toFixed(0); 
+        console.log(temperature);
+
+        temp.textContent = temperature;
+        finalDegree.textContent = "°F"
     }
     else if(celsiusRadio.checked){
-        temp = (tempBox.value - 32) * 5/9;
-        temp = temp.toFixed(2); 
-        console.log(temp);
+        temperature = (tempBox.value - 32) * 5/9;
+        temperature = temperature.toFixed(0); 
+        console.log(temperature);
+
+        temp.textContent = temperature;
+        finalDegree.textContent = "°C"
     }
     else{
         console.log("Nothing is checked");
